@@ -1,0 +1,59 @@
+{
+  "dialogue": {
+    "start": {
+      "text": "Welcome to the Kingdom of Eldoria! How can I assist you?",
+      "options": [
+        {
+          "text": "Ask about quests",
+          "nextNode": "quest"
+        },
+        {
+          "text": "Inquire about shops",
+          "nextNode": "shop"
+        },
+        {
+          "text": "Exit",
+          "nextNode": "end"
+        }
+      ]
+    },
+    "quest": {
+      "text": "We have several quests available. Which one are you interested in?",
+      "options": [
+        {
+          "text": "Defeat the Goblin King",
+          "nextNode": "goblinKingQuest"
+        },
+        {
+          "text": "Retrieve the Lost Artifact",
+          "nextNode": "lostArtifactQuest"
+        },
+        {
+          "text": "Back to start",
+          "nextNode": "start"
+        }
+      ]
+    },
+    "goblinKingQuest": {
+      "text": "The Goblin King resides in the Dark Forest. Are you brave enough to face him?",
+      "options": [
+        {
+          "text": "Accept the quest",
+          "nextNode": "accepted"
+        },
+        {
+          "text": "Decline the quest",
+          "nextNode": "start"
+        }
+      ]
+    },
+    "accepted": {
+      "text": "Good luck on your quest! May the gods be with you.",
+      "options": []
+    },
+    "end": {
+      "text": "Thank you for visiting Eldoria. Farewell!",
+      "options": []
+    }
+  }
+}

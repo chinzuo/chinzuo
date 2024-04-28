@@ -53,7 +53,7 @@
     },
     "end": {
       "text": "Thank you for visiting Eldoria. Farewell!",
-      "options": []
+      "options": [+1]
     }
   }
 }
